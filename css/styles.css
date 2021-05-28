@@ -11335,7 +11335,6 @@ section.resume-section .resume-section-content {
 
 /* Parent Container */
 .row-container {
-  position: relative;
   width: 100%;
   /* height: 200px; */
   margin-right: 0px;
@@ -11358,8 +11357,8 @@ section.resume-section .resume-section-content {
 /* Child Text Container */
 .image-container div {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 50%;
+  right: 50%;
   background: black;
   color: white;
   margin-bottom: 5px;
@@ -11368,6 +11367,9 @@ section.resume-section .resume-section-content {
   visibility: hidden;
   -webkit-transition: visibility 0s, opacity 0.5s linear;
   transition: visibility 0s, opacity 0.5s linear;
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
 }
 
 /* Hover on Parent Container */
